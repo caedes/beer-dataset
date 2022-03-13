@@ -1,0 +1,17 @@
+{
+  "name": "beer-dataset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data/db.js",
+    "start:best": "json-server --watch data/best.js"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/philipperemy/beer-dataset.git",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0"
+  }
+}
